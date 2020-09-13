@@ -15,6 +15,41 @@
   text-align: left;
 }
 
+#header h1 {
+  font-weight: 750;
+}
+
+#fade-in-bottom {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation { 
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#fade-in-bottom {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInBottom;
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to { 
+    opacity: 1
+  }
+}
+
 @media screen and (min-width: 64em) {
   #header {
     font-size: 3rem;
