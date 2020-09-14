@@ -21,9 +21,8 @@ class NavBar extends React.Component {
 	}
 
 	render() {
-		const { scrollY } = this.state;
 		let { background, color } = { background: 'transparent', color: 'white' };
-		if (window.innerWidth < 700 || scrollY > 0) {
+		if (window.innerWidth < 700 || this.state.scrollY > 0) {
 			background = 'white';
 			color = 'black';
 		} else {
@@ -41,12 +40,12 @@ class NavBar extends React.Component {
 
 					{/* Left Side Menu */}
 					<Nav className="mr-auto">
-						<Nav.Link style={{ color }} href="#" disabled="true" hidden="true">3712 SERVERS</Nav.Link>
+						<Nav.Link style={{ color }} href="#" disabled="true" hidden>HOME</Nav.Link>
 					</Nav>
 
 					{/* Right Side Menu */}
 					<Nav>
-						<Nav.Link style={{ color }} href="#features">FEATURES</Nav.Link>
+						<Nav.Link style={{ color }} onClick={() => window.scrollTo(0, this.props.scrollRef)}>FEATURES</Nav.Link>
 						<Nav.Link style={{ color }} href="#">LOGIN</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 import React from 'react';
 import './Feature.css';
 
-class NavBar extends React.Component {
+class Feature extends React.Component {
 	render() {
 		return (
 			<div>
@@ -76,4 +76,4 @@ class NavBar extends React.Component {
 	}
 }
 
-export default NavBar;
+export default Feature;

@@ -1,6 +1,6 @@
 import { Button, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Fearure from './pages/Feature';
+import Feature from './pages/Feature';
 import Fade from 'react-reveal/Fade';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer'
@@ -8,10 +8,20 @@ import React from 'react';
 import './App.css';
 
 class App extends React.Component {
+	constructor() {
+		super();
+		this.state = { offset: 0 };
+		this.scrollRef = React.createRef();
+	}
+
+	componentDidMount() {
+		this.setState({ offset: this.scrollRef.current.offsetTop });
+	}
+
 	render() {
 		return (
 			<div>
-				<Navbar /> {/* Import Navbar */}
+				<Navbar scrollRef={this.state.offset} /> {/* Import Navbar */}
 				<section id="header" style={{ background: 'linear-gradient(135deg, #305af3 10%, #7b30f3)' }}>
 					<div className="details">
 						<Image id="logo" src="./icon-large.png" rounded />
@@ -39,7 +49,9 @@ class App extends React.Component {
 				</section>
 
 				{/* Import Feature */}
-				<Fearure />
+				<div ref={this.scrollRef}>
+					<Feature />
+				</div>
 
 				{/* Inport Footer */}
 				<Footer />
