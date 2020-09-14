@@ -14,7 +14,7 @@ class App extends React.Component {
 				<Navbar /> {/* Import Navbar */}
 				<section id="header" style={{ background: 'linear-gradient(135deg, #305af3 10%, #7b30f3)' }}>
 					<div className="details">
-						<Image id="logo" src="https://clashperk.com/images/icon.png" rounded />
+						<Image id="logo" src="./icon-large.png" rounded />
 						<Fade top>
 							<h1>ClashPerk</h1>
 						</Fade>
