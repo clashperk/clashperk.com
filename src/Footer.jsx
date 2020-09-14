@@ -24,7 +24,7 @@ class NavBar extends React.Component {
 				</OverlayTrigger>
 
 				<OverlayTrigger placement="top" delay={{ show: 250, hide: 400 }} overlay={this.toolTip('Support us on Patreon')}>
-					<a href="https://www.patron.com/join/clashperk">
+					<a href="https://www.patreon.com/join/clashperk">
 						<i className="fab fa-patreon" />
 					</a>
 				</OverlayTrigger>
