@@ -1,0 +1,28 @@
+footer {
+    background: #2a2c30;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer i {
+    font-size: 1.5rem;
+}
