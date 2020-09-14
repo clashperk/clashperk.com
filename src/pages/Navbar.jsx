@@ -32,7 +32,7 @@ class NavBar extends React.Component {
 
 		return (
 			<Navbar collapseOnSelect variant="light" expand="lg" fixed="top" style={{ background }}>
-				<Navbar.Brand  style={{ fontSize: '16px', color }} onClick={() => window.scrollTo(0, 0)}>CLASHPERK</Navbar.Brand>
+				<Navbar.Brand style={{ fontSize: '16px', color }} onClick={() => window.scrollTo(0, 0)}>CLASHPERK</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 
 				{/* Collapse Navbar */}
@@ -45,7 +45,7 @@ class NavBar extends React.Component {
 
 					{/* Right Side Menu */}
 					<Nav>
-						<Nav.Link style={{ color }} onClick={() => window.scrollTo(0, this.props.scrollRef)}>FEATURES</Nav.Link>
+						<Nav.Link style={{ color }} href="#" onClick={() => window.scrollTo(0, this.props.scrollRef)}>FEATURES</Nav.Link>
 						<Nav.Link style={{ color }} href="#">LOGIN</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
