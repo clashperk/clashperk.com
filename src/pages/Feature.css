@@ -1,0 +1,31 @@
+#features {
+  color: #ffffff;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+  
+#features h1 {
+  font-weight: 750;
+}
+  
+#features i {
+  font-size: 5rem;
+  color: #f5f6fa;
+}
+  
+#features .items {
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+  
+#features h2 {
+  font-size: 25px;
+  font-weight: 750;
+}
+  
+#features h3 {
+  font-size: 16px;
+}

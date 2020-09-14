@@ -33,7 +33,7 @@ class NavBar extends React.Component {
 
 		return (
 			<Navbar collapseOnSelect variant="light" expand="lg" fixed="top" style={{ background }}>
-				<Navbar.Brand href="#header" style={{ fontSize: '16px', color }}>CLASHPERK</Navbar.Brand>
+				<Navbar.Brand  style={{ fontSize: '16px', color }} onClick={() => window.scrollTo(0, 0)}>CLASHPERK</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 
 				{/* Collapse Navbar */}
