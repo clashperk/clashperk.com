@@ -41,14 +41,13 @@ class NavBar extends React.Component {
 
 					{/* Left Side Menu */}
 					<Nav className="mr-auto" >
-						<Nav.Link style={{ color }} href="/">HOME</Nav.Link>
-						<Nav.Link style={{ color }} href="#features">FEATURES</Nav.Link>
+						<Nav.Link style={{ color }} href="#" disabled="true" hidden="true">3712 SERVERS</Nav.Link>
 					</Nav>
 
 					{/* Right Side Menu */}
 					<Nav>
-						<Nav.Link style={{ color }} href="#teams">TEAMS</Nav.Link>
-						<Nav.Link style={{ color }} href="#login">LOGIN</Nav.Link>
+						<Nav.Link style={{ color }} href="#features">FEATURES</Nav.Link>
+						<Nav.Link style={{ color }} href="#login" disabled="true">LOGIN</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
