@@ -2,8 +2,8 @@ import { Button, Image, Container, Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
-import Navbar from './Navbar';
-import Footer from './Footer'
+import Navbar from './pages/Navbar';
+import Footer from './pages/Footer'
 import React from 'react';
 import './App.css';
 
