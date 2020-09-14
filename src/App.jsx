@@ -53,7 +53,7 @@ class App extends React.Component {
 					<Feature />
 				</div>
 
-				{/* Inport Footer */}
+				{/* Import Footer */}
 				<Footer />
 			</div>
 		);
