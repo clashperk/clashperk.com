@@ -7,7 +7,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<>
-				<Navbar />
+				<Navbar hide={true} />
 				<div id="privacy">
 					<Container id="heading">
 						<Row>

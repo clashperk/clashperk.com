@@ -19,7 +19,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<>
-				<Navbar scrollRef={this.state.offset} /> {/* Import Navbar */}
+				<Navbar scrollRef={this.state.offset} hide={false} /> {/* Import Navbar */}
 				<section id="header" style={{ background: 'linear-gradient(135deg, #305af3 10%, #7b30f3)' }}>
 					<div className="details">
 						<Image id="logo" src="./icon-large.png" rounded />

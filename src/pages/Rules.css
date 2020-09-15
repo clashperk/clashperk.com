@@ -1,0 +1,21 @@
+#rules {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#rules .items {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+#rules h2 {
+    color: #7289da;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#rules h3 {
+    font-size: 20px;
+}

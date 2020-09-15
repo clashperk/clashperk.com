@@ -2,27 +2,44 @@ footer {
     background: #2a2c30;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 footer p {
-    margin: 10px;
     margin-bottom: 0px;
+    text-align: left;
+    font-size: 14px;
 }
 
 footer a {
     text-decoration: none;
     color: #ffffff;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 footer a:hover {
     text-decoration: none;
     color: #ffffff;
-    padding: 10px;
 }
 
 footer i {
     font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+footer #icons {
+    border-bottom: solid 1px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer i {
+    padding-left: 10px;
+}
+
+footer #legal {
+    text-align: right;
+    font-size: 14px;
 }

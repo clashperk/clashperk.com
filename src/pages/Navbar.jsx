@@ -50,9 +50,10 @@ class NavBar extends React.Component {
 					</Nav>
 
 					{/* Right Side Menu */}
-					<Nav>
+					<Nav hidden={this.props.hide}>
+						<Nav.Link href="/invite" style={{ color }}>INVITE</Nav.Link>
+						<Nav.Link href="/support" style={{ color }}>SUPPORT</Nav.Link>
 						<Nav.Link as={Link} style={{ color }} to="/" onClick={this.scrollTo}>FEATURES</Nav.Link>
-						<Nav.Link as={Link} style={{ color }} to="/privacy">PRIVACY</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
