@@ -46,7 +46,7 @@ class App extends React.Component {
 							<Col className="items">
 								<h1>Data Collected When Features Are Enabled</h1>
 								<h4>
-									The following will be collected automatically when a server administrator configures the bot to perform checks for news or another automated feature within ClashPerk. These features are not enabled automatically, and therefore the following will not be collected automatically unless the corresponding feature is enabled.
+									The following will be collected automatically when a server administrator configures the bot to perform checks for updates or another automated feature within ClashPerk. These features are not enabled automatically, and therefore the following will not be collected automatically unless the corresponding feature is enabled.
 								</h4>
 								<ul>
 									<li>

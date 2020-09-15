@@ -27,7 +27,7 @@ class Feature extends React.Component {
                             <Col className="items" sm>
                                 <h2>Rule One</h2>
                                 <h3>
-                                    Userbotting or anything else used to automate running commands is strictly forbidden.  As well as massive amounts of spam is not allowed.
+                                    Userbotting or anything else used to automate running commands is strictly forbidden. As well as massive amounts of spam is not allowed.
             					</h3>
                             </Col>
                             <Col className="items" sm>
@@ -47,7 +47,7 @@ class Feature extends React.Component {
                             <Col className="items" sm>
                                 <h2>Rule Four</h2>
                                 <h3>
-                                    The Discord TOS and Discord Community Guidelines also are enforcable through our bot.
+                                    The Discord Terms of Service and Discord Community Guidelines also are enforcable through our bot.
             					</h3>
                             </Col>
                         </Row>
