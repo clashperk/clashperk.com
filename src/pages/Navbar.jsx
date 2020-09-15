@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component {
 	constructor() {
@@ -8,8 +9,11 @@ class NavBar extends React.Component {
 	}
 
 	onScroll = () => {
-		const scrollY = window.scrollY;
-		this.setState({ scrollY });
+		this.setState({ scrollY: window.scrollY });
+	}
+
+	scrollTo = () => {
+		window.scrollTo(0, this.props.scrollRef);
 	}
 
 	componentDidMount() {
@@ -32,7 +36,9 @@ class NavBar extends React.Component {
 
 		return (
 			<Navbar collapseOnSelect variant="light" expand="lg" fixed="top" style={{ background }}>
-				<Navbar.Brand style={{ fontSize: '16px', color }} onClick={() => window.scrollTo(0, 0)}>CLASHPERK</Navbar.Brand>
+				<Navbar.Brand as={Link} style={{ fontSize: '16px', color }} to="/" onClick={() => window.scrollTo(0, 0)}>
+					CLASHPERK
+				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 
 				{/* Collapse Navbar */}
@@ -45,8 +51,8 @@ class NavBar extends React.Component {
 
 					{/* Right Side Menu */}
 					<Nav>
-						<Nav.Link style={{ color }} href="#" onClick={() => window.scrollTo(0, this.props.scrollRef)}>FEATURES</Nav.Link>
-						<Nav.Link style={{ color }} href="#">LOGIN</Nav.Link>
+						<Nav.Link as={Link} style={{ color }} to="/" onClick={this.scrollTo}>FEATURES</Nav.Link>
+						<Nav.Link as={Link} style={{ color }} to="/privacy">PRIVACY</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
