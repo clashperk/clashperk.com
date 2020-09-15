@@ -47,6 +47,10 @@ class Feature extends React.Component {
             					</h3>
                             </Col>
                         </Row>
+
+                        <h3 style={{ textAlign: 'center', paddingTop: '5px', color: 'red' }}>
+                            Thank You! ❤
+                        </h3>
                     </Container>
                 </section>
             </div>
