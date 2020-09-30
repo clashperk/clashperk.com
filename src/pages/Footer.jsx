@@ -41,6 +41,7 @@ class NavBar extends React.Component {
 							<div id="legal">
 								<Link to="/privacy">PRIVACY</Link>
 								<Link to="/rules">RULES</Link>
+								<Link to="/guide">GUIDE</Link>
 							</div>
 						</Col>
 					</Row>
