@@ -36,10 +36,10 @@ class App extends React.Component {
 						<Fade left>
 							<p>
 								<a href="https://clashperk.com/invite" target="_blank" rel="noopener noreferrer">
-									<Button id="button" style={{ width: '200px' }} >INVITE CLASHPERK</Button>
+									<Button id="button" >INVITE CLASHPERK</Button>
 								</a>
 								<a href="https://www.patreon.com/join/clashperk" target="_blank" rel="noopener noreferrer">
-									<Button id="button" style={{ width: '200px' }} >SUPPORT US</Button>
+									<Button id="button" style={{ width: '165px' }} >SUPPORT US</Button>
 								</a>
 							</p>
 						</Fade>

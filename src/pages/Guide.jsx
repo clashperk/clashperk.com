@@ -17,7 +17,7 @@ class Guide extends Component {
                         <Row>
                             <Col sm>
                                 <h1 style={{ textAlign: 'center', fontSize: '45px' }}>Guide</h1><br />
-                                <h2 style={{ textAlign: 'center', fontSize: '20px' }}>A Setup Guide For ClashPerk</h2>
+                                <h2 style={{ textAlign: 'center', fontSize: '20px' }}>A Quick Setup Guide For ClashPerk</h2>
                             </Col>
                         </Row>
                     </Container>
