@@ -35,7 +35,7 @@ class NavBar extends React.Component {
 
 					<Row>
 						<Col>
-							<p>&copy; {new Date().getFullYear()} ClashPerk LLC</p>
+							<p>&copy; ClashPerk {new Date().getFullYear()}</p>
 						</Col>
 						<Col>
 							<div id="legal">
