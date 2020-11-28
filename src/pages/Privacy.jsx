@@ -5,8 +5,8 @@ import Navbar from './Navbar'
 
 class App extends React.Component {
 	componentDidMount() {
-        window.scrollTo(0, 0);
-    }
+		window.scrollTo(0, 0);
+	}
 
 	render() {
 		return (
@@ -25,19 +25,20 @@ class App extends React.Component {
 					<Container id="content">
 						<Row>
 							<Col className="items">
-								<h1>Data Collected By Command</h1>
+								<h1>Data Collected Automatically</h1>
 								<h4>
-									The following may be collected via user run command, and may be entered by the user, voluntarily. This data is not collected automatically. When providing data in this way, you forego any rights to the content of the data provided.
+									The following is collected automatically when ClashPerk joins a server. This data is used to provide statistics or server information.
 								</h4>
+
 								<ul>
 									<li>
-										Server Configurations (Region, Name, ID)
+										Server Configurations (Name, ID, Region, Creation Date, Large Status)
 									</li>
 									<li>
-										Server Ownership
+										Server Ownership (Name, ID)
 									</li>
 									<li>
-										User ID
+										Server Member Count
 									</li>
 								</ul>
 							</Col>
@@ -53,36 +54,29 @@ class App extends React.Component {
 										Server Configurations (Name, ID)
 									</li>
 									<li>
-										Channel ID
+										Channel Info (Name, ID)
 									</li>
 									<li>
-										Role ID
-									</li>
-									<li>
-										User ID
+										User Info (Name, ID)
 									</li>
 								</ul>
 							</Col>
 						</Row>
 						<Row>
 							<Col className="items">
-								<h1>Data Collected Automatically</h1>
+								<h1>Data Collected By Command</h1>
 								<h4>
-									The following is collected automatically when ClashPerk joins a server. This data is used to provide statistics or server information.
+									The following may be collected via user run command, and may be entered by the user, voluntarily. This data is not collected automatically. When providing data in this way, you forego any rights to the content of the data provided.
 								</h4>
-
 								<ul>
 									<li>
-										Server Configurations (Region, Name, ID, Creation Date, Large Status)
+										Server Configurations (Name, ID)
 									</li>
 									<li>
-										Server Ownership
+										Server Ownership (Name, ID)
 									</li>
 									<li>
-										Server Member Count
-									</li>
-									<li>
-										Server Channel Count
+										User Info (Name, ID)
 									</li>
 								</ul>
 							</Col>

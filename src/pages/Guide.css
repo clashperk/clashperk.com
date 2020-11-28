@@ -15,25 +15,25 @@ body {
 	font-weight: 600;
 }
 
-.content ul {
+#guide .content ul {
     list-style-type: none;
 }
 
-.content .items {
+#guide .content .items {
 	padding-bottom: 20px;
 }
 
-.content h4 {
+#guide .content h4 {
 	text-align: justify;
 	font-size: 16px;
 }
 
-h6 {
+#guide h6 {
 	font-size: 16px;
 	font-weight: 800;
 }
 
-p {
+#guide p {
 	font-size: 12px;
 	padding: 0px;
 }
@@ -51,35 +51,35 @@ p {
 }
 
 @media screen and (min-width: 64em) {
-	.border {
+	#guide .border {
 		padding: 10px;
 	}
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-	.border {
+	#guide .border {
 		padding: 8px;
 	}
 }
 
 @media screen and (max-width: 42em) {
-	.border {
+	#guide .border {
 		padding: 5px;
 	}
 
-	code {
+	#guide code {
 		font-size: 12px;
 	}
 
-	p {
+	#guide p {
 		font-size: 12px;
 	}
 
-	h6 {
+	#guide h6 {
 		font-size: 14px;
 	}
 	
-	.content h1 {
+	#guide .content h1 {
 		font-size: 16px;
 	}
 }
