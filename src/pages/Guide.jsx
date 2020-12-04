@@ -79,7 +79,7 @@ class Guide extends Component {
                                         <h6>Clan Feed (aka Member Log)</h6>
                                         <p>
                                             Clan member join / leave log and flagged or banned player alert system. <br />
-                                            <Link to={{ pathname: '/faq', hash: 'how-to-flag-players' }}>How does it work?</Link>
+                                            <Link to={{ pathname: '/faq', hash: '#how-does-flag-notification-system-work' }}>How does it work?</Link>
                                         </p>
                                         <code className="border">*setup clan-feed {'<#clanTag>'} [@role]</code>
                                     </li>

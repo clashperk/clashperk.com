@@ -30,6 +30,10 @@ body {
 	text-align: justify;
 }
 
+#faq ul {
+	margin: 0;
+}
+
 @media screen and (min-width: 64em) {
 	#faq .content h4 {
 		font-size: 16px;
@@ -46,4 +50,16 @@ body {
 	#faq h4 {
 		font-size: 16px;
 	}
+}
+
+#faq .border {
+	text-align: center;
+	padding: 6px;
+	color: #ffffff;
+	background-color: #ffffff14;
+	border-color: #ffffff33;
+	border-style: solid;
+	border-width: 6px;
+	border-radius: 0.2rem;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s
 }

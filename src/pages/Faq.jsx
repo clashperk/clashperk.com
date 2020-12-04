@@ -106,12 +106,35 @@ class FAQ extends Component {
                                 </ul>
                             </Col>
                         </Row>
+
                         <Row id="how-does-clan-games-scoreboard-work">
                             <Col className="items" style={{ paddingTop: '5px' }}>
                                 <h1><Link to={{ hash: "#how-does-clan-games-scoreboard-work", pathname: '/faq' }}>#</Link> Q5: How does Clan Games scoreboard work?</h1>
                                 <h4>
                                     The Clan Games points can't be obtained directly! It's only possible by comparing <strong>Games Champion</strong> achievement. <br />
                                     Our system pulls everyone's <strong>Games Champion</strong> achievement in the beginning of Clan Games and compares every 30 minutes.
+                                </h4>
+                            </Col>
+                        </Row>
+
+                        <Row id="how-does-flag-notification-system-work">
+                            <Col className="items" style={{ paddingTop: '5px' }}>
+                                <h1><Link to={{ hash: "#how-does-flag-notification-system-work", pathname: '/faq' }}>#</Link> Q6: How does flag notification system work?</h1>
+                                <h4>
+                                    This is a feature to mark players as banned or flagged and get notified whenever they join back to the clan or clan family. <br />
+                                </h4>
+
+                                <strong>How to flag?</strong>
+                                <ul style={{ margin: '10px', padding: '10px' }}>
+                                    <li style={{ listStyleType: 'none' }}>
+                                        <code className="border" style={{ color: '#aeaeae', margin: 1 }}>*flag {'<#playerTag>'} {'<...reason>'}</code>
+                                    </li>
+                                </ul>
+
+                                <strong style={{ paddingTop: '5px' }}>Things to know...</strong>
+                                <h4 style={{ paddingTop: '5px' }}>
+                                    The bot only notifies when <strong>Clan Feed</strong> is enabled. <br />
+                                    Flags are per server basis. It doesn't travel among Discord servers and not accessible from other servers.
                                 </h4>
                             </Col>
                         </Row>
