@@ -6,6 +6,7 @@ import Navbar from './Navbar'
 
 class Feature extends React.Component {
     componentDidMount() {
+        document.title = "ClashPerk - Rules";
         window.scrollTo(0, 0);
     }
 

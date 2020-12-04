@@ -13,6 +13,7 @@ class App extends React.Component {
 	}
 
 	componentDidMount() {
+		document.title = "ClashPerk - Clash of Clans Discord Bot";
 		this.setState({ offset: this.scrollRef.current.offsetTop });
 	}
 

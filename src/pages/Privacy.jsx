@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 
 class App extends React.Component {
 	componentDidMount() {
+		document.title = "ClashPerk - Privacy";
 		window.scrollTo(0, 0);
 	}
 

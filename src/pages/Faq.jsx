@@ -31,6 +31,7 @@ class FAQ extends Component {
                             </Col>
                         </Row>
                     </Container>
+
                     <Container className="content">
                         <Row id="is-clashperk-legal">
                             <Col className="items">
@@ -108,7 +109,7 @@ class FAQ extends Component {
                         </Row>
 
                         <Row id="how-does-clan-games-scoreboard-work">
-                            <Col className="items" style={{ paddingTop: '5px' }}>
+                            <Col className="items">
                                 <h1><Link to={{ hash: "#how-does-clan-games-scoreboard-work", pathname: '/faq' }}>#</Link> Q5: How does Clan Games scoreboard work?</h1>
                                 <h4>
                                     The Clan Games points can't be obtained directly! It's only possible by comparing <strong>Games Champion</strong> achievement. <br />
@@ -118,7 +119,7 @@ class FAQ extends Component {
                         </Row>
 
                         <Row id="how-does-flag-notification-system-work">
-                            <Col className="items" style={{ paddingTop: '5px' }}>
+                            <Col className="items">
                                 <h1><Link to={{ hash: "#how-does-flag-notification-system-work", pathname: '/faq' }}>#</Link> Q6: How does flag notification system work?</h1>
                                 <h4>
                                     This is a feature to mark players as banned or flagged and get notified whenever they join back to the clan or clan family. <br />
