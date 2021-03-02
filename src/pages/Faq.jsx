@@ -79,11 +79,11 @@ class FAQ extends Component {
                             </Col>
                         </Row>
 
-                        <Row id="how-does-last-online-work">
+                        <Row id="how-does-last-seen-work">
                             <Col className="items">
-                                <h1><Link to={{ hash: "#how-does-last-online-work", pathname: '/faq' }}>#</Link> Q4: How does last online work?</h1>
+                                <h1><Link to={{ hash: "#how-does-last-seen-work", pathname: '/faq' }}>#</Link> Q4: How does last seen work?</h1>
                                 <h4>
-                                    The bot can't see who is online in your clan. So, it uses the following points to determine an approximate last online time.
+                                    The bot can't see who is online in the clan. So, it uses the following activities to determine an approximate last seen time.
                                 </h4>
                                 <ul>
                                     <li>
@@ -99,10 +99,10 @@ class FAQ extends Component {
                                         Increased XP Level
                                     </li>
                                     <li>
-                                        Gained Legend Trophies
+                                        Attacked in War
                                     </li>
                                     <li>
-                                        Attacked in War (Coming Soon)
+                                        Gained Legend Trophies
                                     </li>
                                 </ul>
                             </Col>
@@ -128,7 +128,7 @@ class FAQ extends Component {
                                 <strong>How to flag?</strong>
                                 <ul style={{ margin: '10px', padding: '10px' }}>
                                     <li style={{ listStyleType: 'none' }}>
-                                        <code className="border" style={{ color: '#aeaeae', margin: 1 }}>*flag {'<#playerTag>'} {'<...reason>'}</code>
+                                        <code className="border" style={{ color: '#aeaeae', margin: 1 }}>!flag add {'#PLAYER_TAG REASON'}</code>
                                     </li>
                                 </ul>
 
